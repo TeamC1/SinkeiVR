@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class ShadeUI : MonoBehaviour
 {
-	public GameObject Stick;
 	public float DisOfCam;
 	public float UIShadeSpeed;
 	private Vector3 DisOfUIAndCam;
@@ -15,6 +14,7 @@ public class ShadeUI : MonoBehaviour
 	void Start ()
 	{
 		gameObject.transform.position = Camera.main.transform.position + new Vector3 (5f, -1f, DisOfCam);
+
 		Vector3 CamPos = Camera.main.transform.position + new Vector3 (0f, -1f, DisOfCam);
 		DisOfUIAndCam = CamPos - gameObject.transform.position;
 	}
