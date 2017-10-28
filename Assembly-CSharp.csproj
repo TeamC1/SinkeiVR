@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{85AC1950-4D99-D085-9F81-B04001D929C7}</ProjectGuid>
+    <ProjectGuid>{BEFD11A6-1295-B536-CFF6-D03F1DB936AE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -90,6 +90,8 @@
      <Compile Include="Assets\Scripts\SinkeiManager.cs" />
      <Compile Include="Assets\Scripts\SinkeiManagerTest.cs" />
      <Compile Include="Assets\Scripts\TurnCounter.cs" />
+     <Compile Include="Assets\ShadeUI\flick.cs" />
+     <Compile Include="Assets\ShadeUI\ShadeUI.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />
@@ -241,7 +243,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{F83AF425-1C0B-9A76-D4B9-9F837AB4B95A}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{B94FCDA3-DAC8-CAAA-3861-958840CE8A9B}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
