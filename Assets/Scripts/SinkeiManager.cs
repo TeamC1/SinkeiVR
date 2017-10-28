@@ -5,19 +5,83 @@ using UnityEngine.SceneManagement;
 
 public class SinkeiManager : MonoBehaviour {
 	// Cards
-	public GameObject Card1;
-	public GameObject Card2;
-	public GameObject Card3;
-	public GameObject Card4;
-	public GameObject Card5;
-	public GameObject Card6;
-	public GameObject Card7;
-	public GameObject Card8;
-	public GameObject Card9;
-	public GameObject Card10;
-	public GameObject Card11;
-	public GameObject Card12;
-	public GameObject Card13;
+//	public GameObject Card1;
+//	public GameObject Card2;
+//	public GameObject Card3;
+//	public GameObject Card4;
+//	public GameObject Card5;
+//	public GameObject Card6;
+//	public GameObject Card7;
+//	public GameObject Card8;
+//	public GameObject Card9;
+//	public GameObject Card10;
+//	public GameObject Card11;
+//	public GameObject Card12;
+//	public GameObject Card13;
+	public GameObject Card1S;
+	public GameObject Card1H;
+	public GameObject Card1C;
+	public GameObject Card1D;
+
+	public GameObject Card2S;
+	public GameObject Card2H;
+	public GameObject Card2C;
+	public GameObject Card2D;
+
+	public GameObject Card3S;
+	public GameObject Card3H;
+	public GameObject Card3C;
+	public GameObject Card3D;
+
+	public GameObject Card4S;
+	public GameObject Card4H;
+	public GameObject Card4C;
+	public GameObject Card4D;
+
+	public GameObject Card5S;
+	public GameObject Card5H;
+	public GameObject Card5C;
+	public GameObject Card5D;
+
+	public GameObject Card6S;
+	public GameObject Card6H;
+	public GameObject Card6C;
+	public GameObject Card6D;
+
+	public GameObject Card7S;
+	public GameObject Card7H;
+	public GameObject Card7C;
+	public GameObject Card7D;
+
+	public GameObject Card8S;
+	public GameObject Card8H;
+	public GameObject Card8C;
+	public GameObject Card8D;
+
+	public GameObject Card9S;
+	public GameObject Card9H;
+	public GameObject Card9C;
+	public GameObject Card9D;
+
+	public GameObject Card10S;
+	public GameObject Card10H;
+	public GameObject Card10C;
+	public GameObject Card10D;
+
+	public GameObject Card11S;
+	public GameObject Card11H;
+	public GameObject Card11C;
+	public GameObject Card11D;
+
+	public GameObject Card12S;
+	public GameObject Card12H;
+	public GameObject Card12C;
+	public GameObject Card12D;
+
+	public GameObject Card13S;
+	public GameObject Card13H;
+	public GameObject Card13C;
+	public GameObject Card13D;
 
 	public GUISkin clearSkin;
 
@@ -40,6 +104,11 @@ public class SinkeiManager : MonoBehaviour {
 
 	bool check = true; //選択したカードのチェック用
 
+	int skill_A = 0;
+	int skill_J = 0;
+	int skill_Q = 0;
+	int skill_K = 0;
+
 
 	//int score = 0;
 	// Use this for initialization
@@ -55,22 +124,115 @@ public class SinkeiManager : MonoBehaviour {
 
 		// generate cards
 		int count = 0;
+		int count1=0,count2=0,count3=0,count4=0,count5=0,count6=0,count7=0,count8=0,count9=0,count10=0,count11=0,count12=0,count13=0;
+
 		while(count < 52){
 			GameObject cardobj =null;
 			switch(idTable[count]){
-				case 1:cardobj = (GameObject)Instantiate(Card1); break;
-				case 2:cardobj = (GameObject)Instantiate(Card2); break;
-				case 3:cardobj = (GameObject)Instantiate(Card3); break;
-				case 4:cardobj = (GameObject)Instantiate(Card4); break;
-				case 5:cardobj = (GameObject)Instantiate(Card5); break;
-				case 6:cardobj = (GameObject)Instantiate(Card6); break;
-				case 7:cardobj = (GameObject)Instantiate(Card7); break;
-				case 8:cardobj = (GameObject)Instantiate(Card8); break;
-				case 9:cardobj = (GameObject)Instantiate(Card9); break;
-				case 10:cardobj = (GameObject)Instantiate(Card10); break;
-				case 11:cardobj = (GameObject)Instantiate(Card11); break;
-				case 12:cardobj = (GameObject)Instantiate(Card12); break;
-				case 13:cardobj = (GameObject)Instantiate(Card13); break;
+//				case 1:cardobj = (GameObject)Instantiate(Card1); break;
+//				case 2:cardobj = (GameObject)Instantiate(Card2); break;
+//				case 3:cardobj = (GameObject)Instantiate(Card3); break;
+//				case 4:cardobj = (GameObject)Instantiate(Card4); break;
+//				case 5:cardobj = (GameObject)Instantiate(Card5); break;
+//				case 6:cardobj = (GameObject)Instantiate(Card6); break;
+//				case 7:cardobj = (GameObject)Instantiate(Card7); break;
+//				case 8:cardobj = (GameObject)Instantiate(Card8); break;
+//				case 9:cardobj = (GameObject)Instantiate(Card9); break;
+//				case 10:cardobj = (GameObject)Instantiate(Card10); break;
+//				case 11:cardobj = (GameObject)Instantiate(Card11); break;
+//				case 12:cardobj = (GameObject)Instantiate(Card12); break;
+//				case 13:cardobj = (GameObject)Instantiate(Card13); break;
+			case 1:{
+					if(count1==0) cardobj = (GameObject)Instantiate(Card1S);
+					else if(count1==1) cardobj = (GameObject)Instantiate(Card1H);
+					else if(count1==2) cardobj = (GameObject)Instantiate(Card1C);
+					else if(count1==3) cardobj = (GameObject)Instantiate(Card1D);
+					count1++;
+					break;}
+			case 2:{
+					if(count2==0) cardobj = (GameObject)Instantiate(Card2S);
+					else if(count2==1) cardobj = (GameObject)Instantiate(Card2H);
+					else if(count2==2) cardobj = (GameObject)Instantiate(Card2C);
+					else if(count2==3) cardobj = (GameObject)Instantiate(Card2D);
+					count2++;
+					break;}
+			case 3:{
+					if(count3==0) cardobj = (GameObject)Instantiate(Card3S);
+					else if(count3==1) cardobj = (GameObject)Instantiate(Card3H);
+					else if(count3==2) cardobj = (GameObject)Instantiate(Card3C);
+					else if(count3==3) cardobj = (GameObject)Instantiate(Card3D);
+					count3++;
+					break;}
+			case 4:{
+					if(count4==0) cardobj = (GameObject)Instantiate(Card4S);
+					else if(count4==1) cardobj = (GameObject)Instantiate(Card4H);
+					else if(count4==2) cardobj = (GameObject)Instantiate(Card4C);
+					else if(count4==3) cardobj = (GameObject)Instantiate(Card4D);
+					count4++;
+					break;}
+			case 5:{
+					if(count5==0) cardobj = (GameObject)Instantiate(Card5S);
+					else if(count5==1) cardobj = (GameObject)Instantiate(Card5H);
+					else if(count5==2) cardobj = (GameObject)Instantiate(Card5C);
+					else if(count5==3) cardobj = (GameObject)Instantiate(Card5D);
+					count5++;
+					break;}
+			case 6:{
+					if(count6==0) cardobj = (GameObject)Instantiate(Card6S);
+					else if(count6==1) cardobj = (GameObject)Instantiate(Card6H);
+					else if(count6==2) cardobj = (GameObject)Instantiate(Card6C);
+					else if(count6==3) cardobj = (GameObject)Instantiate(Card6D);
+					count6++;
+					break;}
+			case 7:{
+					if(count7==0) cardobj = (GameObject)Instantiate(Card7S);
+					else if(count7==1) cardobj = (GameObject)Instantiate(Card7H);
+					else if(count7==2) cardobj = (GameObject)Instantiate(Card7C);
+					else if(count7==3) cardobj = (GameObject)Instantiate(Card7D);
+					count7++;
+					break;}
+			case 8:{
+					if(count8==0) cardobj = (GameObject)Instantiate(Card8S);
+					else if(count8==1) cardobj = (GameObject)Instantiate(Card8H);
+					else if(count8==2) cardobj = (GameObject)Instantiate(Card8C);
+					else if(count8==3) cardobj = (GameObject)Instantiate(Card8D);
+					count8++;
+					break;}
+			case 9:{
+					if(count9==0) cardobj = (GameObject)Instantiate(Card9S);
+					else if(count9==1) cardobj = (GameObject)Instantiate(Card9H);
+					else if(count9==2) cardobj = (GameObject)Instantiate(Card9C);
+					else if(count9==3) cardobj = (GameObject)Instantiate(Card9D);
+					count9++;
+					break;}
+			case 10:{
+					if(count10==0) cardobj = (GameObject)Instantiate(Card10S);
+					else if(count10==1) cardobj = (GameObject)Instantiate(Card10H);
+					else if(count10==2) cardobj = (GameObject)Instantiate(Card10C);
+					else if(count10==3) cardobj = (GameObject)Instantiate(Card10D);
+					count10++;
+					break;}
+			case 11:{
+					if(count11==0) cardobj = (GameObject)Instantiate(Card11S);
+					else if(count11==1) cardobj = (GameObject)Instantiate(Card11H);
+					else if(count11==2) cardobj = (GameObject)Instantiate(Card11C);
+					else if(count11==3) cardobj = (GameObject)Instantiate(Card11D);
+					count11++;
+					break;}
+			case 12:{
+					if(count12==0) cardobj = (GameObject)Instantiate(Card12S);
+					else if(count12==1) cardobj = (GameObject)Instantiate(Card12H);
+					else if(count12==2) cardobj = (GameObject)Instantiate(Card12C);
+					else if(count12==3) cardobj = (GameObject)Instantiate(Card12D);
+					count12++;
+					break;}
+			case 13:{
+					if(count13==0) cardobj = (GameObject)Instantiate(Card13S);
+					else if(count13==1) cardobj = (GameObject)Instantiate(Card13H);
+					else if(count13==2) cardobj = (GameObject)Instantiate(Card13C);
+					else if(count13==3) cardobj = (GameObject)Instantiate(Card13D);
+					count13++;
+					break;}
 			}
 
 			float x,y,z;
@@ -82,25 +244,25 @@ public class SinkeiManager : MonoBehaviour {
 			if (0 <= count && count <= 12) { //1段目
 				y = 3.8f; // 高さ
 				tempDeg = 0; //位置のずれを調整
-				cardobj.transform.rotation = Quaternion.Euler (new Vector3 (104.036f, 270f - 180 * (degree + tempDeg) / Mathf.PI , 0f));
+				cardobj.transform.rotation = Quaternion.Euler (new Vector3 (14.036f, 270f - 180 * (degree + tempDeg) / Mathf.PI , 0f));
 				x = Mathf.Cos (degree + tempDeg) * 5f;
 			    z = Mathf.Sin (degree + tempDeg) * 5f;
 			} else if (13 <= count && count <= 25) {//２段目
 				y = 2.2f;
 				tempDeg = Mathf.PI * 2 / 26; //Mathf = 円周率
-			    cardobj.transform.rotation = Quaternion.Euler (new Vector3 (94.764f, 270f - 180 * (degree + tempDeg) / Mathf.PI , 0f));
+			    cardobj.transform.rotation = Quaternion.Euler (new Vector3 (4.764f, 270f - 180 * (degree + tempDeg) / Mathf.PI , 0f));
 			    x = Mathf.Cos (degree + tempDeg) * 6f;
 				  z = Mathf.Sin (degree + tempDeg) * 6f;
 			} else if (26 <= count && count <= 38){//３段目
 				y = 0.6f;
 				tempDeg = 0;
-				cardobj.transform.rotation = Quaternion.Euler (new Vector3 (86.764f, 270f - 180 * (degree + tempDeg) / Mathf.PI , 0f));
+				cardobj.transform.rotation = Quaternion.Euler (new Vector3 (-6.764f, 270f - 180 * (degree + tempDeg) / Mathf.PI , 0f));
 				x = Mathf.Cos (degree + tempDeg) * 6f;
 				z = Mathf.Sin (degree + tempDeg) * 6f;
 			} else { // ad 4段目
 				y = -1.0f;
 				tempDeg = Mathf.PI * 2 / 26;
-				cardobj.transform.rotation = Quaternion.Euler (new Vector3 (76.034f, 270f - 180 * (degree + tempDeg) / Mathf.PI , 0f));
+				cardobj.transform.rotation = Quaternion.Euler (new Vector3 (-16.034f, 270f - 180 * (degree + tempDeg) / Mathf.PI , 0f));
 				x = Mathf.Cos (degree + tempDeg) * 5f;
 				z = Mathf.Sin (degree + tempDeg) * 5f;
 			}
@@ -228,6 +390,10 @@ public class SinkeiManager : MonoBehaviour {
 
 	private void Check(){
 		if(reversed[0] == reversed[1]){
+
+			//if(reversed[0] == ){
+
+
 			Destroy(revesedObj[0]);
 			Destroy(revesedObj[1]);
 

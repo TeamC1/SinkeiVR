@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: acc09ea2036494a618a82df9eab11728
+timeCreated: 1509162705
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Armature
+    100002: head
+    100004: head_end
+    100006: hip_L
+    100008: hip_R
+    100010: knee_L
+    100012: knee_L_end
+    100014: knee_R
+    100016: knee_R_end
+    100018: lower_arm_L
+    100020: lower_arm_L_end
+    100022: lower_arm_R
+    100024: lower_leg_L
+    100026: lower_leg_L_end
+    100028: lower_leg_R
+    100030: lower_leg_R_end
+    100032: Master
+    100034: neck
+    100036: sholder_L
+    100038: sholder_R
+    100040: spine1
+    100042: spine2
+    100044: spine3
+    100046: Stick
+    100048: Stick_end
+    100050: upper_arm_L
+    100052: upper_arm_R
+    100054: upper_leg_L
+    100056: upper_leg_R
+    100058: "\u30BA\u30DC\u30F3"
+    100060: "\u30D6\u30E9\u30A6\u30B9"
+    100062: "\u30D9\u30B9\u30C8"
+    100064: "\u30DE\u30F3\u30C8"
+    100066: "\u30DE\u30F3\u30C8\u7559\u3081"
+    100068: "\u4F53"
+    100070: "\u53E3"
+    100072: "\u6756"
+    100074: //RootNode
+    100076: "\u738B\u51A0"
+    100078: "\u738B\u51A0\u91D1"
+    100080: "\u76EE"
+    100082: "\u9774"
+    100084: "\u9854"
+    100086: "\u9AEA"
+    400000: Armature
+    400002: head
+    400004: head_end
+    400006: hip_L
+    400008: hip_R
+    400010: knee_L
+    400012: knee_L_end
+    400014: knee_R
+    400016: knee_R_end
+    400018: lower_arm_L
+    400020: lower_arm_L_end
+    400022: lower_arm_R
+    400024: lower_leg_L
+    400026: lower_leg_L_end
+    400028: lower_leg_R
+    400030: lower_leg_R_end
+    400032: Master
+    400034: neck
+    400036: sholder_L
+    400038: sholder_R
+    400040: spine1
+    400042: spine2
+    400044: spine3
+    400046: Stick
+    400048: Stick_end
+    400050: upper_arm_L
+    400052: upper_arm_R
+    400054: upper_leg_L
+    400056: upper_leg_R
+    400058: "\u30BA\u30DC\u30F3"
+    400060: "\u30D6\u30E9\u30A6\u30B9"
+    400062: "\u30D9\u30B9\u30C8"
+    400064: "\u30DE\u30F3\u30C8"
+    400066: "\u30DE\u30F3\u30C8\u7559\u3081"
+    400068: "\u4F53"
+    400070: "\u53E3"
+    400072: "\u6756"
+    400074: //RootNode
+    400076: "\u738B\u51A0"
+    400078: "\u738B\u51A0\u91D1"
+    400080: "\u76EE"
+    400082: "\u9774"
+    400084: "\u9854"
+    400086: "\u9AEA"
+    4300000: "\u6756"
+    4300002: "\u9854"
+    4300004: "\u76EE"
+    4300006: "\u9AEA"
+    4300008: "\u53E3"
+    4300010: "\u9774"
+    4300012: "\u4F53"
+    4300014: "\u30D9\u30B9\u30C8"
+    4300016: "\u30BA\u30DC\u30F3"
+    4300018: "\u30D6\u30E9\u30A6\u30B9"
+    4300020: "\u30DE\u30F3\u30C8"
+    4300022: "\u30DE\u30F3\u30C8\u7559\u3081"
+    4300024: "\u738B\u51A0\u91D1"
+    4300026: "\u738B\u51A0"
+    7400000: Armature|Skill
+    7400002: "\u6756|Meet"
+    7400004: "\u9854|Appear"
+    7400006: "\u30DE\u30F3\u30C8|Meet"
+    7400008: "\u30DE\u30F3\u30C8\u7559\u3081|Appear"
+    9500000: //RootNode
+    13700000: "\u30BA\u30DC\u30F3"
+    13700002: "\u30D6\u30E9\u30A6\u30B9"
+    13700004: "\u30D9\u30B9\u30C8"
+    13700006: "\u30DE\u30F3\u30C8"
+    13700008: "\u30DE\u30F3\u30C8\u7559\u3081"
+    13700010: "\u4F53"
+    13700012: "\u53E3"
+    13700014: "\u6756"
+    13700016: "\u738B\u51A0"
+    13700018: "\u738B\u51A0\u91D1"
+    13700020: "\u76EE"
+    13700022: "\u9774"
+    13700024: "\u9854"
+    13700026: "\u9AEA"
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

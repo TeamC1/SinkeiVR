@@ -25,7 +25,7 @@ public class shot : MonoBehaviour {
 //        var device = SteamVR_Controller.Input((int)trackObject.index);
 
 //		if (device.GetTouchDown(SteamVR_Controller.ButtonMask.Trigger)) {
-		if (Input.GetMouseButton(0)) {
+		if (Input.GetMouseButtonDown(0)) {
             refObj = Instantiate(bullet, Muzzle_transform.position, Muzzle_transform.rotation) as GameObject;
         }
     }

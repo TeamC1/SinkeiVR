@@ -30,7 +30,9 @@ public class TimeCounter : MonoBehaviour {
 				}
 
 				if (timeCounter == 0f) {
-						SinkeiManager mgr = manager.GetComponent<SinkeiManager> ();
+						//SinkeiManager mgr = manager.GetComponent<SinkeiManager> ();
+						SinkeiManagerTest mgr = manager.GetComponent<SinkeiManagerTest> ();
+
 						mgr.timeout = true;
 				}
 

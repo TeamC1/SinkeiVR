@@ -56,6 +56,7 @@
      <Compile Include="Assets\iTween\Sample\MoveSample.cs" />
      <Compile Include="Assets\iTween\Sample\RotateSample.cs" />
      <Compile Include="Assets\iTween\Sample\SampleInfo.cs" />
+     <Compile Include="Assets\LifeOfMarker.cs" />
      <Compile Include="Assets\MagicalPro\Magical\Sources\Scripts\FX_AddForceForward.cs" />
      <Compile Include="Assets\MagicalPro\Magical\Sources\Scripts\FX_Camera.cs" />
      <Compile Include="Assets\MagicalPro\Magical\Sources\Scripts\FX_FadeToGround.cs" />
@@ -77,6 +78,7 @@
      <Compile Include="Assets\MagicalPro\Magical\Sources\Scripts\Wizard.cs" />
      <Compile Include="Assets\MagicalPro\MagicalDark\Sources\Scripts\FX_ElectroLine.cs" />
      <Compile Include="Assets\MagicalPro\MagicalDark\Sources\Scripts\FX_MoveAround.cs" />
+     <Compile Include="Assets\MoveMarker.cs" />
      <Compile Include="Assets\ResultScore.cs" />
      <Compile Include="Assets\Scripts\ChangeSceneToSinkei.cs" />
      <Compile Include="Assets\Scripts\ChangeSceneToTitle.cs" />
@@ -86,6 +88,7 @@
      <Compile Include="Assets\Scripts\reverseCard.cs" />
      <Compile Include="Assets\Scripts\shot.cs" />
      <Compile Include="Assets\Scripts\SinkeiManager.cs" />
+     <Compile Include="Assets\Scripts\SinkeiManagerTest.cs" />
      <Compile Include="Assets\Scripts\TurnCounter.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />

@@ -12,9 +12,10 @@ public class ChangeSceneToSinkei : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        SteamVR_TrackedObject trackObject = GetComponent<SteamVR_TrackedObject>();
-        var device = SteamVR_Controller.Input((int)trackObject.index);
-        if (device.GetTouchDown(SteamVR_Controller.ButtonMask.Trigger)) {
+//        SteamVR_TrackedObject trackObject = GetComponent<SteamVR_TrackedObject>();
+//        var device = SteamVR_Controller.Input((int)trackObject.index);
+//        if (device.GetTouchDown(SteamVR_Controller.ButtonMask.Trigger)) {
+		if(Input.GetKeyDown(KeyCode.C)){
 						SceneManager.LoadScene ("sinkei");
 				}
 	}

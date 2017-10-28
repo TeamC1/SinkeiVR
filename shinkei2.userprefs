@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ChangeSceneToSinkei.cs">
+    <Files>
+      <File FileName="Assets/Scripts/reverseCard.cs" Line="81" Column="5" />
+      <File FileName="Assets/Scripts/shot.cs" Line="28" Column="31" />
+      <File FileName="Assets/Scripts/SinkeiManagerTest.cs" Line="248" Column="18" />
+      <File FileName="Assets/Scripts/SinkeiManager.cs" Line="260" Column="67" />
+      <File FileName="Assets/TimeCounter.cs" Line="38" Column="3" />
+      <File FileName="Assets/MagicalPro/Magical/Sources/Scripts/FX_HitSpawner.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/FadeIn.cs" Line="11" Column="1" />
+      <File FileName="Assets/Scripts/ChangeSceneToSinkei.cs" Line="18" Column="34" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
