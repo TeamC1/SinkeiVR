@@ -84,7 +84,24 @@ public class SinkeiManager : MonoBehaviour {
 	public GameObject Card13D;
 
 	public GUISkin clearSkin;
-
+    /*
+    public GameObject HK;
+    public GameObject DK;
+    public GameObject SK;
+    public GameObject CK;
+    public GameObject HQ;
+    public GameObject DQ;
+    public GameObject SQ;
+    public GameObject CQ;
+    public GameObject HJ;
+    public GameObject DJ;
+    public GameObject SJ;
+    public GameObject CJ;
+    public GameObject HA;
+    public GameObject DA;
+    public GameObject SA;
+    public GameObject CA;
+    */
 	int[] reversed = {0,0};
 	GameObject[] revesedObj = {null,null};
 //	public int sentinel = 0;
@@ -397,7 +414,10 @@ public class SinkeiManager : MonoBehaviour {
 			Destroy(revesedObj[0]);
 			Destroy(revesedObj[1]);
 
-			GameObject.Find ("Player_score").GetComponent<PlayerScore> ().score = reversed [0];
+            HK app = GetComponent<HK>();
+            app.appear(gameObject);
+
+            GameObject.Find ("Player_score").GetComponent<PlayerScore> ().score = reversed [0];
 
 
 		} else{

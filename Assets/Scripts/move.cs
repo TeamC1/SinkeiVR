@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//namespace sinkei {
 public class move : MonoBehaviour {
 
 	public float speed;
@@ -30,9 +31,12 @@ public class move : MonoBehaviour {
 						Destroy(this.gameObject);
 
 						other.GetComponent<reverseCard> ().Reverse();
-
+                //SpawnObj2 spawnObj = new SpawnObj2();
+                //spawnObj.check(other.gameObject);
+            
 				}
 		}
 
 
 }
+//}

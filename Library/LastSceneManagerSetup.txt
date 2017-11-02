@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/MagicalPro/Magical/Demo.unity
+- path: Assets/sinkei.unity
   isLoaded: 1
   isActive: 1

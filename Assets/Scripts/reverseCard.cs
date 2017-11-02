@@ -53,13 +53,17 @@ public class reverseCard : MonoBehaviour {
 			"oncomplete","Complete")
 			);
 		face = true;
-		//check = 1;
+        //check = 1;
+
+        HK app = GetComponent<HK>();
+        app.appear(gameObject);
 
 
-	}
+    }
 
-	public void ReSet(){
-		iTween.MoveBy(gameObject,
+    public void ReSet(){
+
+        iTween.MoveBy(gameObject,
 			iTween.Hash(
 			"z",-1.0f,
 			"time",1.0f)
@@ -78,16 +82,24 @@ public class reverseCard : MonoBehaviour {
 			"oncomplete","Faceisfalse"
 			)
 			);
-		//face = false;
-		//check = 0;
-	}
 
-	private void Complete(){
+
+        HK app = GetComponent<HK>();
+        app.disappear(gameObject);
+
+        //face = false;
+        //check = 0;
+    }
+
+    private void Complete(){
 		//else if(check == 1 ){
 		//face = true;
 		SinkeiManager mgr = manager.GetComponent<SinkeiManager>();
+        //SpawnObj2 spw = manager.GetComponent<SpawnObj2>();
 //		SinkeiManagerTest mgr = manager.GetComponent<SinkeiManagerTest>();
 		mgr.ReversePost(id,gameObject);
+        //Debug.Log(spw);
+        //spw.Spawn(gameObject);
 		//}
 	}
 
